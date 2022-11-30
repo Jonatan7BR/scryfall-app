@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
+  // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
   document.getElementById('root') as HTMLElement
 );
 root.render(
